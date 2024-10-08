@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简单游戏</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="game-container">
+    <button id="startButton">开始游戏</button>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="doorContainer" style="display: none;"></div>
+    <div id="statueContainer" style="display: none;"></div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/storyText.js"></script>
+  <audio id="gameMusic" controls style="display:none;">
+    <source src="music/Echos of Destiny ext v2.1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+</body>
+
+</html>
